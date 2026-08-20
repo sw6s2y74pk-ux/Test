@@ -176,8 +176,8 @@ function initActivityList() {
     <div class="activity">
       <div class="icon" style="background:var(${m.color})">${m.icon}</div>
       <div class="main">
-        <div class="loc">${a.location}</div>
-        <div class="date">${fmtDate(a.date)} · ${a.label}</div>
+        <div class="loc">${a.label}</div>
+        <div class="date">${fmtDate(a.date)}</div>
       </div>
       <div class="stat keep"><b>${distLabel}</b></div>
       <div class="stat"><b>${fmtDuration(a.durationSec)}</b> <span class="u">time</span></div>

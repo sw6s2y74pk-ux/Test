@@ -118,16 +118,17 @@ const WEEKLY = [
   { week: "2026-W34", run: 0.79, bike: 0,    swim: 0.04 },
 ];
 
-// Most recent sessions, newest first.
+// Most recent sessions, newest first. No place names on purpose — this file
+// is public, keep it that way in future edits too.
 const RECENT = [
-  { date: "2026-08-19", discipline: "run",  label: "Trail Run",         location: "Marbella Trail Run",       durationSec: 2644, distanceM: 6560,  avgHr: 159, calories: 573 },
-  { date: "2026-08-18", discipline: "swim", label: "Open Water Swim",   location: "Marbella Open Water",      durationSec: 135,  distanceM: 80,    avgHr: 113, calories: 23 },
-  { date: "2026-08-17", discipline: "run",  label: "Outdoor Run",       location: "Marbella Run",              durationSec: 207,  distanceM: 644,   avgHr: 144, calories: 55 },
-  { date: "2026-07-31", discipline: "bike", label: "Road Bike",         location: "Holzgerlingen Road Bike",   durationSec: 1468, distanceM: 8890,  avgHr: 134, calories: 246 },
-  { date: "2026-07-26", discipline: "bike", label: "Road Bike",         location: "Holzgerlingen Road Bike",   durationSec: 5971, distanceM: 41780, avgHr: 145, calories: 1129 },
-  { date: "2026-07-25", discipline: "bike", label: "Road Bike",         location: "Aidlingen Road Bike",       durationSec: 5324, distanceM: 31790, avgHr: 141, calories: 957 },
-  { date: "2026-07-07", discipline: "run",  label: "Outdoor Run",       location: "Holzgerlingen Run",         durationSec: 421,  distanceM: 1290,  avgHr: 155, calories: 105 },
-  { date: "2026-07-07", discipline: "run",  label: "Outdoor Run",       location: "Holzgerlingen Run",         durationSec: 901,  distanceM: 2490,  avgHr: 149, calories: 224 },
+  { date: "2026-08-19", discipline: "run",  label: "Trail Run",       durationSec: 2644, distanceM: 6560,  avgHr: 159, calories: 573 },
+  { date: "2026-08-18", discipline: "swim", label: "Open Water Swim", durationSec: 135,  distanceM: 80,    avgHr: 113, calories: 23 },
+  { date: "2026-08-17", discipline: "run",  label: "Outdoor Run",     durationSec: 207,  distanceM: 644,   avgHr: 144, calories: 55 },
+  { date: "2026-07-31", discipline: "bike", label: "Road Bike",       durationSec: 1468, distanceM: 8890,  avgHr: 134, calories: 246 },
+  { date: "2026-07-26", discipline: "bike", label: "Road Bike",       durationSec: 5971, distanceM: 41780, avgHr: 145, calories: 1129 },
+  { date: "2026-07-25", discipline: "bike", label: "Road Bike",       durationSec: 5324, distanceM: 31790, avgHr: 141, calories: 957 },
+  { date: "2026-07-07", discipline: "run",  label: "Outdoor Run",     durationSec: 421,  distanceM: 1290,  avgHr: 155, calories: 105 },
+  { date: "2026-07-07", discipline: "run",  label: "Outdoor Run",     durationSec: 901,  distanceM: 2490,  avgHr: 149, calories: 224 },
 ];
 
 // Upcoming planned sessions (from Coros training plan), on or after generatedAt.

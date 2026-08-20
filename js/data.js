@@ -16,7 +16,7 @@
 
 const CONFIG = {
   raceName: "IRONMAN",
-  raceDate: null,        // e.g. "2027-07-04" — set this to switch on the countdown
+  raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
   generatedAt: "2026-08-19",
 };

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Ironman — Finn's training dashboard</title>
+<meta name="description" content="Training dashboard for Finn's Ironman triathlon build-up: fitness, load, weekly volume and recent sessions across swim, bike and run.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23d03b3b%22/><text x=%2216%22 y=%2222%22 font-family=%22system-ui%22 font-weight=%22900%22 font-size=%2214%22 fill=%22%23fff%22 text-anchor=%22middle%22>IM</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top"><span class="brand-mark">IM</span> PROJECT IRONMAN</a>
+    <nav class="topnav">
+      <a href="#fitness">Fitness</a>
+      <a href="#training">Training</a>
+      <a href="#activity">Log</a>
+      <a href="#schedule">Schedule</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="eyebrow">Athlete: <span id="athleteName"></span></div>
+      <h1>Project <span class="accent" id="raceNameHero">IRONMAN</span></h1>
+      <p class="lede">One race, three disciplines, a single build-up — tracked from real training data, swim to bike to run.</p>
+      <div class="hero-badges" id="heroBadges"></div>
+    </div>
+    <div class="countdown-card" id="countdownCard"></div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <section class="block" id="fitness">
+    <div class="block-head">
+      <div>
+        <h2>Fitness snapshot</h2>
+        <p>Current assessment and race predictions from the latest test data.</p>
+      </div>
+    </div>
+    <div class="tiles" id="fitnessTiles"></div>
+  </section>
+
+  <section class="block" id="training">
+    <div class="block-head">
+      <div>
+        <h2>Discipline totals</h2>
+        <p>Distance and time logged across every recorded session.</p>
+      </div>
+    </div>
+    <div class="disciplines" id="disciplineCards"></div>
+    <div class="mix-bar" id="mixBar"></div>
+    <div class="legend-row" id="mixLegend"></div>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <div>
+        <h2>Weekly training volume</h2>
+        <p>Hours per week by discipline.</p>
+      </div>
+      <span class="block-note">Hover a bar for the breakdown</span>
+    </div>
+    <div class="chart-card" id="volumeChart"></div>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <div>
+        <h2>Training load</h2>
+        <p>Short-term vs. long-term load, last 30 days.</p>
+      </div>
+      <span class="block-note">Hover the chart to scrub dates</span>
+    </div>
+    <div class="chart-card" id="loadChart"></div>
+  </section>
+
+  <section class="block" id="activity">
+    <div class="block-head">
+      <div>
+        <h2>Recent sessions</h2>
+        <p>Latest logged activity.</p>
+      </div>
+    </div>
+    <div class="activity-list" id="activityList"></div>
+  </section>
+
+  <section class="block" id="schedule">
+    <div class="block-head">
+      <div>
+        <h2>Upcoming plan</h2>
+        <p>What's next on the training schedule.</p>
+      </div>
+    </div>
+    <div class="schedule-list" id="scheduleList"></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Data snapshot from <span id="generatedAt"></span> · sourced from Coros ·
+    edit <code>js/data.js</code> to refresh<br>
+    &copy; <span id="year"></span> Project Ironman
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-08-19.
+   Generated from Finn's Coros account on 2026-08-20.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-08-19",
+  generatedAt: "2026-08-20",
 };
 
 const ATHLETE = {
@@ -42,9 +42,9 @@ const FITNESS = {
 };
 
 const RECOVERY = {
-  percent: 96,
+  percent: 99,
   level: "Heavy training allowed",
-  etaHours: 10,
+  etaHours: 3,
 };
 
 // Last 30 days of training-load assessment, oldest first.
@@ -133,7 +133,6 @@ const RECENT = [
 
 // Upcoming planned sessions (from Coros training plan), on or after generatedAt.
 const SCHEDULE = [
-  { date: "2026-08-19", label: "Planned session", distanceKm: 13.53, estimatedTime: "1:42:04", loadTL: 242 },
   { date: "2026-08-20", label: "Planned session", distanceKm: 6.00,  estimatedTime: "49:03",   loadTL: 60 },
   { date: "2026-08-20", label: "Planned session", distanceKm: null,  estimatedTime: "58:40",   loadTL: null },
   { date: "2026-08-22", label: "Planned session", distanceKm: 14.40, estimatedTime: "1:40:52", loadTL: 180 },

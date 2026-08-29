@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-08-28.
+   Generated from Finn's Coros account on 2026-08-29.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-08-28",
+  generatedAt: "2026-08-29",
 };
 
 const ATHLETE = {
@@ -49,7 +49,6 @@ const RECOVERY = {
 
 // Last 30 days of training-load assessment, oldest first.
 const LOAD = [
-  { date: "2026-07-30", comment: "Decreasing", shortTerm: 20, longTerm: 42, ratio: 0.47 },
   { date: "2026-07-31", comment: "Resuming", shortTerm: 21, longTerm: 42, ratio: 0.50 },
   { date: "2026-08-01", comment: "Decreasing", shortTerm: 18, longTerm: 42, ratio: 0.42 },
   { date: "2026-08-02", comment: "Decreasing", shortTerm: 16, longTerm: 42, ratio: 0.38 },
@@ -79,6 +78,7 @@ const LOAD = [
   { date: "2026-08-26", comment: "Decreasing", shortTerm: 21, longTerm: 44, ratio: 0.47 },
   { date: "2026-08-27", comment: "Decreasing", shortTerm: 18, longTerm: 43, ratio: 0.41 },
   { date: "2026-08-28", comment: "Decreasing", shortTerm: 15, longTerm: 42, ratio: 0.35 },
+  { date: "2026-08-29", comment: "Decreasing", shortTerm: 13, longTerm: 42, ratio: 0.30 },
 ];
 
 // Discipline totals across all logged sessions.

@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-09-02.
+   Generated from Finn's Coros account on 2026-09-03.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-09-02",
+  generatedAt: "2026-09-03",
 };
 
 const ATHLETE = {
@@ -49,7 +49,6 @@ const RECOVERY = {
 
 // Last 30 days of training-load assessment, oldest first.
 const LOAD = [
-  { date: "2026-08-04", comment: "Decreasing", shortTerm: 12, longTerm: 42, ratio: 0.28 },
   { date: "2026-08-05", comment: "Decreasing", shortTerm: 10, longTerm: 42, ratio: 0.23 },
   { date: "2026-08-06", comment: "Decreasing", shortTerm: 9, longTerm: 42, ratio: 0.21 },
   { date: "2026-08-07", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
@@ -79,6 +78,7 @@ const LOAD = [
   { date: "2026-08-31", comment: "Decreasing", shortTerm: 10, longTerm: 42, ratio: 0.23 },
   { date: "2026-09-01", comment: "Decreasing", shortTerm: 8, longTerm: 42, ratio: 0.19 },
   { date: "2026-09-02", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
+  { date: "2026-09-03", comment: "Decreasing", shortTerm: 6, longTerm: 42, ratio: 0.14 },
 ];
 
 // Discipline totals across all logged sessions.
@@ -134,7 +134,6 @@ const RECENT = [
 
 // Upcoming planned sessions (from Coros training plan), on or after generatedAt.
 const SCHEDULE = [
-  { date: "2026-09-02", label: "Planned session", distanceKm: 10.53, estimatedTime: "1:22:32", loadTL: 212 },
   { date: "2026-09-03", label: "Planned session", distanceKm: 6.00,  estimatedTime: "49:03",   loadTL: 60 },
   { date: "2026-09-03", label: "Planned session", distanceKm: null,  estimatedTime: "58:40",   loadTL: null },
   { date: "2026-09-05", label: "Planned session", distanceKm: 13.36, estimatedTime: "1:36:06", loadTL: 142 },

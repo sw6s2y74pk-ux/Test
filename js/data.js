@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-09-04.
+   Generated from Finn's Coros account on 2026-09-05.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-09-04",
+  generatedAt: "2026-09-05",
 };
 
 const ATHLETE = {
@@ -49,7 +49,6 @@ const RECOVERY = {
 
 // Last 30 days of training-load assessment, oldest first.
 const LOAD = [
-  { date: "2026-08-06", comment: "Decreasing", shortTerm: 9, longTerm: 42, ratio: 0.21 },
   { date: "2026-08-07", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
   { date: "2026-08-08", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
   { date: "2026-08-09", comment: "Decreasing", shortTerm: 6, longTerm: 42, ratio: 0.14 },
@@ -79,6 +78,7 @@ const LOAD = [
   { date: "2026-09-02", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
   { date: "2026-09-03", comment: "Decreasing", shortTerm: 6, longTerm: 42, ratio: 0.14 },
   { date: "2026-09-04", comment: "Decreasing", shortTerm: 5, longTerm: 42, ratio: 0.11 },
+  { date: "2026-09-05", comment: "Decreasing", shortTerm: 5, longTerm: 42, ratio: 0.11 },
 ];
 
 // Discipline totals across all logged sessions.
@@ -139,4 +139,6 @@ const SCHEDULE = [
   { date: "2026-09-08", label: "Planned session", distanceKm: 10.00, estimatedTime: "1:15:05", loadTL: 101 },
   { date: "2026-09-08", label: "Planned session", distanceKm: null,  estimatedTime: "34:00",   loadTL: null },
   { date: "2026-09-10", label: "Planned session", distanceKm: 10.06, estimatedTime: "1:18:04", loadTL: 149 },
+  { date: "2026-09-12", label: "Planned session", distanceKm: 8.36,  estimatedTime: "1:03:34", loadTL: 91 },
+  { date: "2026-09-12", label: "Planned session", distanceKm: null,  estimatedTime: "58:40",   loadTL: null },
 ];

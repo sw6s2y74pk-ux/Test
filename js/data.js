@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-09-14.
+   Generated from Finn's Coros account on 2026-09-15.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-09-14",
+  generatedAt: "2026-09-15",
 };
 
 const ATHLETE = {
@@ -42,14 +42,13 @@ const FITNESS = {
 };
 
 const RECOVERY = {
-  percent: 100,
+  percent: 99,
   level: "Heavy training allowed",
-  etaHours: 0,
+  etaHours: 2,
 };
 
 // Last 30 days of training-load assessment, oldest first.
 const LOAD = [
-  { date: "2026-08-16", comment: "Decreasing", shortTerm: 4, longTerm: 42, ratio: 0.09 },
   { date: "2026-08-17", comment: "Decreasing", shortTerm: 6, longTerm: 42, ratio: 0.14 },
   { date: "2026-08-18", comment: "Decreasing", shortTerm: 5, longTerm: 42, ratio: 0.11 },
   { date: "2026-08-19", comment: "Decreasing", shortTerm: 21, longTerm: 46, ratio: 0.45 },
@@ -78,14 +77,15 @@ const LOAD = [
   { date: "2026-09-11", comment: "Decreasing", shortTerm: 7, longTerm: 42, ratio: 0.16 },
   { date: "2026-09-12", comment: "Decreasing", shortTerm: 6, longTerm: 42, ratio: 0.14 },
   { date: "2026-09-13", comment: "Decreasing", shortTerm: 5, longTerm: 42, ratio: 0.11 },
-  { date: "2026-09-14", comment: "Decreasing", shortTerm: 4, longTerm: 42, ratio: 0.09 },
+  { date: "2026-09-14", comment: "Decreasing", shortTerm: 15, longTerm: 43, ratio: 0.34 },
+  { date: "2026-09-15", comment: "Decreasing", shortTerm: 13, longTerm: 42, ratio: 0.30 },
 ];
 
 // Discipline totals across all logged sessions.
 const TOTALS = {
   swim: { distKm: 6.5, timeHours: 2.3, count: 12, calories: 1739 },
   bike: { distKm: 137.4, timeHours: 7.6, count: 13, calories: 4346 },
-  run:  { distKm: 405.9, timeHours: 40.2, count: 69, calories: 32242 },
+  run:  { distKm: 410.4, timeHours: 40.9, count: 70, calories: 32798 },
 };
 
 // Weekly training volume in hours by discipline, ISO week, oldest first.
@@ -118,11 +118,13 @@ const WEEKLY = [
   { week: "2026-W34", run: 0.79, bike: 0,    swim: 0.10 },
   { week: "2026-W35", run: 1.07, bike: 0,    swim: 0 },
   { week: "2026-W36", run: 0.50, bike: 0,    swim: 0 },
+  { week: "2026-W38", run: 0.68, bike: 0,    swim: 0 },
 ];
 
 // Most recent sessions, newest first. No place names on purpose — this file
 // is public, keep it that way in future edits too.
 const RECENT = [
+  { date: "2026-09-14", discipline: "run",  label: "Outdoor Run",     durationSec: 2430, distanceM: 4450,  avgHr: 146, calories: 556 },
   { date: "2026-09-06", discipline: "run",  label: "Outdoor Run",     durationSec: 1802, distanceM: 4310,  avgHr: 147, calories: 444 },
   { date: "2026-08-24", discipline: "run",  label: "Outdoor Run",     durationSec: 3851, distanceM: 10160, avgHr: 149, calories: 953 },
   { date: "2026-08-22", discipline: "swim", label: "Open Water Swim", durationSec: 219,  distanceM: 92,    avgHr: 99,  calories: 38 },
@@ -130,7 +132,6 @@ const RECENT = [
   { date: "2026-08-18", discipline: "swim", label: "Open Water Swim", durationSec: 135,  distanceM: 80,    avgHr: 113, calories: 23 },
   { date: "2026-08-17", discipline: "run",  label: "Outdoor Run",     durationSec: 207,  distanceM: 644,   avgHr: 144, calories: 55 },
   { date: "2026-07-31", discipline: "bike", label: "Road Bike",       durationSec: 1468, distanceM: 8890,  avgHr: 134, calories: 246 },
-  { date: "2026-07-26", discipline: "bike", label: "Road Bike",       durationSec: 5971, distanceM: 41780, avgHr: 145, calories: 1129 },
 ];
 
 // Upcoming planned sessions (from Coros training plan), on or after generatedAt.

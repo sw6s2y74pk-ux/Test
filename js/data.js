@@ -1,6 +1,6 @@
 /* ==========================================================================
    PROJECT IRONMAN — data snapshot
-   Generated from Finn's Coros account on 2026-09-16.
+   Generated from Finn's Coros account on 2026-09-17.
 
    HOW TO UPDATE
    -------------
@@ -18,7 +18,7 @@ const CONFIG = {
   raceName: "IRONMAN",
   raceDate: "2027-04-18", // e.g. "2027-07-04" — set this to switch on the countdown
   raceLocation: null,    // e.g. "Frankfurt, Germany"
-  generatedAt: "2026-09-16",
+  generatedAt: "2026-09-17",
 };
 
 const ATHLETE = {
@@ -49,7 +49,6 @@ const RECOVERY = {
 
 // Last 30 days of training-load assessment, oldest first.
 const LOAD = [
-  { date: "2026-08-18", comment: "Decreasing", shortTerm: 5, longTerm: 42, ratio: 0.11 },
   { date: "2026-08-19", comment: "Decreasing", shortTerm: 21, longTerm: 46, ratio: 0.45 },
   { date: "2026-08-20", comment: "Decreasing", shortTerm: 18, longTerm: 44, ratio: 0.40 },
   { date: "2026-08-21", comment: "Decreasing", shortTerm: 15, longTerm: 43, ratio: 0.34 },
@@ -79,6 +78,7 @@ const LOAD = [
   { date: "2026-09-14", comment: "Decreasing", shortTerm: 15, longTerm: 43, ratio: 0.34 },
   { date: "2026-09-15", comment: "Decreasing", shortTerm: 13, longTerm: 42, ratio: 0.30 },
   { date: "2026-09-16", comment: "Decreasing", shortTerm: 11, longTerm: 42, ratio: 0.26 },
+  { date: "2026-09-17", comment: "Decreasing", shortTerm: 10, longTerm: 42, ratio: 0.23 },
 ];
 
 // Discipline totals across all logged sessions.
@@ -136,9 +136,9 @@ const RECENT = [
 
 // Upcoming planned sessions (from Coros training plan), on or after generatedAt.
 const SCHEDULE = [
-  { date: "2026-09-16", label: "Planned session", distanceKm: 20.80, estimatedTime: "2:11:39", loadTL: 297 },
   { date: "2026-09-17", label: "Planned session", distanceKm: 6.00,  estimatedTime: "49:03",   loadTL: 60 },
   { date: "2026-09-19", label: "Planned session", distanceKm: 11.36, estimatedTime: "1:23:05", loadTL: 122 },
   { date: "2026-09-20", label: "Planned session", distanceKm: 21.00, estimatedTime: "2:13:05", loadTL: 276 },
   { date: "2026-09-22", label: "Planned session", distanceKm: 11.36, estimatedTime: "1:23:05", loadTL: 122 },
+  { date: "2026-09-23", label: "Planned session", distanceKm: 20.80, estimatedTime: "2:11:39", loadTL: 297 },
 ];
